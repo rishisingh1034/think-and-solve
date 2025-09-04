@@ -17,6 +17,13 @@ function palindromeNumber(num) {
     return true;
 }
 
+var palindrome = function (x) {
+    return x < 0 ? false : x === +x.toString().split("").reverse().join("")
+}
+
+const res = palindrome(121)
+console.log(res)
+
 console.log(palindromeNumber(121));
 
 // write a function showing palindrome for strings
