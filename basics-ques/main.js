@@ -16,9 +16,5 @@
 
 // console.log(flattenArray(arr))
 
-async function intervalFn() {
 
-}
-
-const promise = new Promise();
 
