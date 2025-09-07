@@ -17,23 +17,3 @@ console.log(moreThan)
 
 const sum = nums.reduce((acc, num) => acc + num, 0);
 console.log(sum)
-
-// Polyfill
-
-// Polyfill for map()
-
-// map((callback,i,arr)=> {})
-
-// 'this' is referring to the array we are targeting
-
-Array.prototype.myMap = function (callback) {
-    let temp = [];
-
-    for (let i = 0; i < this.length; i++) {
-        temp.push(callback(this[i], i, this))
-    }
-    return temp;
-}
-
-const myNum = nums.myMap((num) => num * 2)
-console.log("myNum", myNum)
