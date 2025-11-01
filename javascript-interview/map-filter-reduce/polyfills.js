@@ -11,6 +11,7 @@ Array.prototype.myMap = function (callback) {
     for (let i = 0; i < this.length; i++) {
         arr.push(callback(this[i], i, this))
     }
+    return arr
 }
 
 // Polyfill for filter()
