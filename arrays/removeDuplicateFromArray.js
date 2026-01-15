@@ -1,3 +1,5 @@
+// Pattern: Two Pointers
+
 // Remove Duplicates from Sorted Array
 
 // Given an integer array nums sorted in non-decreasing order (means can have duplicates), remove the duplicates in-place(means modify the existing array don't create new) such that each unique element appears only once. The relative order of the elements should be kept the same.
