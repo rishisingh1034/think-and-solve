@@ -20,7 +20,6 @@ var removeElement = function (nums, val) {
             x = x + 1;
         }
     }
-    console.log(nums)
     return x;
 };
 
